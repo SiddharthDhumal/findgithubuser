@@ -1,0 +1,104 @@
+.home{
+    margin:2rem auto;
+    width:80%;
+    padding:2rem auto;
+    height:80%;
+}
+
+.inputForm{
+    margin:0.5rem auto 2.5rem;
+    border-style:inset;
+    text-align:center;
+    height:2rem;
+    width:35rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.inputBox{
+   width:80%;
+   height:100%;
+   padding:0 0.5rem;
+   font-size:large;
+   border:none;
+}
+
+.inputBox:focus{
+    outline: none;
+}
+
+.inputBtn{
+   width:5rem;
+   border-style:outset;
+   cursor: pointer;
+   background-color:#74c0fc;
+   color:#fff;
+   border-radius:9px;
+   border:none;
+}
+
+.showAllData{
+    display:grid;
+    grid-template-columns:auto auto;
+    padding:0.5rem auto;
+    width:80%;
+    margin:0.5rem auto;
+    gap:15px;
+}
+
+.userData{
+     padding:2rem 5rem;
+     display:flex;
+     justify-content:flex-start;
+     align-items:center;
+     gap:25px;
+}
+
+.userData img{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+}
+
+.followersList{
+    text-decoration:underline;
+    display:block;
+    margin:0.5rem auto;
+    font-family: 'Poppins', sans-serif;
+    color:#868e96;
+}
+
+.githubLink{
+    color:#15aabf;
+}
+
+
+.userBtn{
+    border:none;
+    background:none;
+    font-size:1.2rem;
+    display: block;
+}
+
+.userName{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    color:#1c7ed6;
+}
+
+.userInfo{
+    font-size:1.2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.selectUser{
+    font-size:5rem;
+    text-align:center;
+    margin:5rem auto;
+    color:#5c7cfa;
+}

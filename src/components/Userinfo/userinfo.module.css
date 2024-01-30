@@ -1,0 +1,63 @@
+
+.header{
+    margin:1rem auto;
+    font-size:2rem;
+    font-family:"Poppins",sans-serif;
+    font-weight:700;
+    text-align:center;
+    background-color:#099268;
+    color:#fff;
+    border-style:outset;
+    width:50%;
+}
+
+.repoList{
+    margin:2rem auto;
+    padding:2rem auto;
+    width:90%;
+    display:grid;
+    font-family:"Poppins",sans-serif;
+    grid-template-columns:auto auto auto;
+    gap:2rem;
+    column-gap:3rem;
+    list-style-type: none;
+}
+
+.repoListItem{
+   display:flex;
+   flex-direction:column;
+   padding:1rem 2rem;
+   border-radius:9px;
+   gap:0.5rem;
+   width:25rem;
+   background-color:#e3fafc;
+   border-style:outset;
+}
+
+.repoListItem strong{
+    color:#087f5b;
+}
+
+
+.backBtn{
+    position:absolute;
+    right:2rem;
+    top:2rem;
+   
+}
+
+.followersBtn{
+    position:absolute;
+    left:2rem;
+    top:2rem;
+    font-size:1rem;
+     text-decoration:underline;
+}
+
+
+.norepo{
+    text-align:center;
+    margin:5rem auto;
+    font-size:5rem;
+    color:#5c7cfa;
+}

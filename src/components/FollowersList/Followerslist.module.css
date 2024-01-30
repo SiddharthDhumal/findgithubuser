@@ -1,0 +1,64 @@
+
+.header{
+    margin:1rem auto;
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    background-color:#099268;
+    color:#fff;
+    border-style:outset;
+    width:50%;
+}
+
+.showAllFollowers{
+    margin:2rem auto;
+    padding:2rem auto;
+    width:90%;
+    display:grid;
+    font-family:"Poppins",sans-serif;
+    grid-template-columns:auto auto auto;
+    gap:2rem;
+    column-gap:3rem;
+}
+
+.usersFollower{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   gap:2rem;
+   width:25rem;
+   padding:1rem 2rem;
+   border-radius:9px;
+   background-color:#e3fafc;
+   border-style:outset;
+}
+
+
+.followersList{
+    text-decoration:underline;
+}
+
+
+.backBtn{
+    position:absolute;
+    right:2rem;
+    top:2rem;
+}
+
+
+
+.nofollowers{
+    font-size:5rem;
+    text-align:center;
+    margin:5rem auto;
+    display: block;
+    color:#5c7cfa;
+}
+
+.userBtn{
+    border:none;
+    background:none;
+    font-size:1.2rem;
+    display: block;
+}
